@@ -14,7 +14,6 @@ int main(void)
 
 	e = 'e';
 	q = 'q';
-	
 	for (c = 'a' ; c <= 'z'; c++)
 	{
 		if (c != e && c != q)
