@@ -10,10 +10,12 @@
  */
 int main(void)
 {
-        int x;
+        char c;
 
-        for (x = 0; x < 10; x++)
-        putchar(x);
-        putchar('\n');
+        for (c = '0'; c <= '9'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
         return (0);
 }
