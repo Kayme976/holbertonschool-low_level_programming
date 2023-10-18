@@ -3,27 +3,24 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet_x10 - program that prints _putchar, followed by new line
- *
+ * print_alphabet_x10 - Make alphabet x10 times
+ *Return: void 
  *
  *
  *
  */
 void print_alphabet_x10(void)
 {
-        int i;
-
-	/**
-	 * tu peux pas utiliser i pour les deux boucles for 
-	 * int nimporte quelle lettre 
-	 * et tu utilise la nouvelle lettre dans ton deuxieme for 
-	 */
-        for (i = 0; i <= 10; i++)
+	char c;
+	int i = 0;
+	while (i <= 9)
+	{
+        for (c = 'a'; c <= 'z'; c++)
         {
-                for (i = 97; i <= 122; i++)
-                {
-                        _putchar(i);
-                }
-                _putchar('\n');
-        }
+		_putchar(c);
+	}
+		_putchar('\n');
+		i++;
+
+	}
 }
