@@ -11,10 +11,10 @@
  *
  */
 
-int _islower(int c)
+int _islower(void)
 
 {
-	int c;
+	char c;
 
 	if (c >= 97 && c <= 122)
 	{
