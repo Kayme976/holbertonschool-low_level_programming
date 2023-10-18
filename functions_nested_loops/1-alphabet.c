@@ -3,20 +3,17 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always (Success)
+ * print_alphabet - program that prints _ putchar, follwed by a new line 
  *
  *
  */
 void print_alphabet(void);
 {
-	char c;
+	int i;
 
-	for (c = 'a' ; c <= 'z'; c++)
+	for (i = 97; i <= 122; i++)
 	{
-		_putchar(c);
+		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
 }
