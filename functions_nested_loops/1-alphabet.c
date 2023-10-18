@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - program that prints _ putchar, follwed by a new line 
+ * print_alphabet - program that prints _ putchar, follwed by a new line
  *
  *
  */
