@@ -18,7 +18,6 @@ int _islower(void)
 
 	if (c >= 97 && c <= 122)
 	{
-		_putchar(c);
 		return (1);
 	}
 	_putchar('\n');
