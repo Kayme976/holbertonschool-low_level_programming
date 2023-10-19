@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
+#include "ctype.h"
 /**
  * _islower - Checks for lowercase character
  * %c : The character to be checked
@@ -11,16 +12,12 @@
  *
  */
 
-int _islower(void)
+int _islower(int c)
 
 {
-	char c;
 
 	if (c >= 97 && c <= 122)
-	{
 		return (1);
-	}
-	_putchar('\n');
-	return (0);
-
-
+	else
+		return (0);
+}
