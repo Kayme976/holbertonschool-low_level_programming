@@ -17,4 +17,6 @@ int _isalpha(int c);
 	{
 		kayme = 0;
 	}
+	return (kayme)
+
 }
