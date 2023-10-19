@@ -1,13 +1,12 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _isalpha - Checks for alphabetic character
- * @c: The charachter to be checked
- * _isalpha checks for alphabetic character
- * Return: 1 for alphabetic character or 0 for anything else
+ * print_sign - Prints the sign of a number
+ * @c: The number to be checked
+ * Return: 1 for positive num, -1 for negative num or zero for anything else
  */
 
-int print '_sign'(int n)
+int print_sign(int n)
 
 {
 	if (n > 0)
