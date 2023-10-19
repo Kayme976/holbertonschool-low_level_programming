@@ -7,7 +7,7 @@
  * Return: 1 for alphabetic character or 0 for anything else
  */
 
-int print _sign(int n)
+int print '_sign'(int n)
 
 {
 	if (n > 0)
