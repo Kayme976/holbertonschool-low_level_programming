@@ -1,23 +1,22 @@
 #include "main.h"
-#include "ctype.h"
+#include <ctype.h>
 /**
  * _isalpha - Checks for alphabetic character
  * @c: The charachter to be checked
+ * _isalpha checks for alphabetic character 
  * Return: 1 for alphabetic character or 0 for anything else 
  */
 int _isalpha(int c)
 {
+	int temp;
 
-	int kayme;
-	
 	if (isalpha(c))
 	{
-		kayme = 1;
-	}
-	else
+		temp = 1;
+	} else
 	{
-		kayme = 0;
+		temp = 0;
 	}
-	return (kayme)
+	return (temp);
 
 }
