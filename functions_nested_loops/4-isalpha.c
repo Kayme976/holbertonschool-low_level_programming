@@ -5,18 +5,15 @@
 #include <ctype.h>
 /**
  * _isalpha - Checks for alphabetic character
- * %c: The charachter to be checked
+ * @c: The charachter to be checked
  * Return: 1 for alphabetic character or 0 for anything else 
  */
 
 int isalpha(int c);
 
 {
-	char c
-
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
-	{
 		return (1);
-	}
-	return (0);
-
+	else
+		return (0);
+}
