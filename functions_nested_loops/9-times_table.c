@@ -8,8 +8,6 @@
  * c = colonne
  * l = ligne
  * r = resultat
- * u = unité
- * d = dizaine
  *
  */
 
