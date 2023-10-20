@@ -29,20 +29,16 @@ void times_table(void)
 			d=r/10;
 			u=r%10;
 			if (d != 0)
-			{	_putchar(d+'0');
-				_putchar(u+'0');
-				_putchar(44);
-				_putchar(32);
-			}
-			else
-			{
+			{	_putchar((r/10)+'0');
+				_putchar((r%/10)+'0');
+				_putchar(d+'0');
 				_putchar(u+'0');
 				_putchar(44);
 				_putchar(32);
 				_putchar(32);
 			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 
 }
