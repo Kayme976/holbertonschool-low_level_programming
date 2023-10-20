@@ -22,7 +22,7 @@ void times_table(void)
 	{
 		_putchar('0');
 
-		for (l = 1 ; l <= 9;l++)
+		for (l = 1 ; l <= 9; l++)
 		{
 			int r = c * l;
 
@@ -37,8 +37,8 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar((r/10)+'0');
-				_putchar((r%10)+'0');
+				_putchar((r / 10) + '0');
+				_putchar((r % 10) + '0');
 			}
 		}
 		_putchar('\n');
