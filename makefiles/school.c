@@ -1,10 +1,10 @@
-#inclure "mh"
+#include "m.h"
 
 /**
- * print_school - imprimer le logo de Holberton
+ * print_school - print the logo of Holberton
  *
- *Retour : Rien
+ * Return: Nothing
  *
  */
-vide print_school (vide)
+void print_school(void)
 {
