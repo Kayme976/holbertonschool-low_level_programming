@@ -17,15 +17,18 @@ char *_strncpy(char *dest, char *src, int n)
 		size_src++;
 	}
 
-	while (src[i] != '\0' && i <= n)
+	while (src[i] != '\0' && i < n)
 	{
 		dest[i] = src[i];
 		i++;
 	}
 
-	if (i < size_src)
+	i = 0;
+
+	while (n >= src_length + i)
 	{
 		dest[i] = '\0';
+		i++;
 	}
 
 	return (dest);
