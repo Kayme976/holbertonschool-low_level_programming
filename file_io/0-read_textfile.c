@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * read_textfile - that reads a text file and prints it to POSIX stdout.
- * @filename: Apointer to the name of the file.
- * @letters: the numbers of letters the
- * function should read and print.
+ * read_textfile - hat reads a text file and prints it to the
+ * POSIX standard output.
+ * @filename: name of the text file to read
+ * @letters: maximum of bytes to read and print
  * Return: num of bytes read and printed or 0 on failure
  */
 ssize_t read_textfile(const char *filename, size_t letters)
